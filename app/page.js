@@ -8,8 +8,6 @@ export default function Home() {
   const[pricing, setPricing] = useState("monthly")
   const[pricingData, setPricingData] = useState(monthlyPrice)
 
-  // console.log(pricingData)
-
   function changePricing(pricing){
     setPricing(pricing)
 
@@ -20,15 +18,6 @@ export default function Home() {
     }
   }
 
-// console.log(pricing)
-
-  // function convertToMonthly(){
-  //   setPricing('monthly')
-  // }
-  // function convertToAnually(){
-  //   setPricing('anually')
-  // }
-  // console.log(pricing)
   return (
     <main>
       <div className="main-content">
