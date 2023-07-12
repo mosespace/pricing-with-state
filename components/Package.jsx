@@ -1,6 +1,6 @@
 export default function Package({data}) {
   const {title, price, features, isRecommended} = data;
-  // console.log(isRecommended)
+  
   return (
     <div className={isRecommended ?"package recommended" :"package"}>
       {
